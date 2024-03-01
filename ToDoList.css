@@ -1,0 +1,106 @@
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    background-image: linear-gradient(to top, rgb(111, 111, 225), rgb(249, 170, 183));
+}
+
+.Container {
+    background: rgb(234, 219, 160);
+    height: 100vh;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: darkblue;
+    font-size: 120px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+
+}
+
+.display-date{
+    justify-content:center;
+    margin-top: 20%;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.box{
+    display: flex;
+    justify-content:center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+input{
+    padding: 15px;
+    width: 50vh;
+    font-size: 17px;
+    border-radius: 5%;
+    border: none;
+    outline: none;
+    box-shadow: -4px 4px 0px 0px rgb(115, 112, 112);
+}
+
+button{
+    padding: 15px;
+    width: 15vh;
+    font-size: 20px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(245, 248, 250);
+    cursor: pointer;
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 30px;
+    background-color: white;
+    width: 50vh;
+    margin: 0 auto;
+    margin-top: 35px;
+    font-size: 20px;
+    font-family:serif ;
+}
+
+li{
+    position: relative;
+}
+
+ul span{
+    position: absolute;
+    right: 0;
+    font-size: 25px;
+    color: black;
+    cursor: pointer;
+}
+
+ul span{
+    &:hover {
+        background-color: red;
+        transition:  all .3s  ease-in-out;
+    }
+        width: 50px;
+        height: auto;
+        text-align:center;
+        border-radius: 30px
+}
+
+button:hover{
+    background-color: darkblue;
+    color: white;
+    transition: all  .3s ease-in-out;
+}
